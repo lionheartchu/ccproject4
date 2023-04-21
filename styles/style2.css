@@ -1,0 +1,117 @@
+@keyframes btnchange{
+    0%{}
+    100%{transform:scale(1.4);}
+}
+@keyframes shake{
+    0%{}
+    50%{transform:translate(-1vw,0)}
+    100%{transform:translate(1vw,0)}
+}
+body{
+    background:skyblue;
+    font-family: 'Prompt';
+    color:black;
+    font-size: 1.3vw;
+    margin:3%;
+    text-align: center;
+}
+h1,h3{
+    color:aliceblue;
+}
+
+.wrapper{
+    margin-top:3%;
+    border-radius:1vw;
+    background:azure;
+    padding:3%;
+}
+.flex-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left:27%;
+}
+.btn {
+    margin-top:3%;
+    font-family: 'Prompt';
+    background-color: cornflowerblue;
+    border: none;
+    width: 11vw;
+    height:5.5vw;
+    font-size:2vw;
+    border-radius: 1.5vw;
+    padding:.6%;
+    color:aliceblue;
+}
+h3:hover{
+    transform:translate(0,1.8vw) scale(1.3);
+    color:grey;
+    transition-duration: 1.5s;
+
+}
+.btn:hover {
+    color: grey;
+    background: lightskyblue;
+    transform:rotate(360deg);
+    transition-duration: 1s;
+}
+.btn:active{
+    animation:btnchange 0.1s;
+}
+  
+.box{
+    margin:4%;
+}
+.result {
+    font-size: 2.4vw;
+    display: inline-block;
+    background: transparent;
+    margin:2%;
+} 
+.result:hover {
+    font-size:2.8vw;
+    color:grey;
+}
+.btnAdd {
+    margin-left: 2%;
+    padding: .6%;
+    background: lightseagreen;
+    color:aliceblue;
+    border: none;
+    font-family: 'Prompt';
+    width: 8vw;
+    height:4vw;
+    font-size:1.5vw;
+    border-radius: 1.5vw;
+}
+  
+.btnAdd:hover {
+    background: Aquamarine;
+    color: grey;
+    
+}
+.rep{
+    font-size:1.5vw;
+    color:whitesmoke;
+    margin:3%;
+}
+.rep:hover{
+    color:silver;
+}
+.rt{
+    font-size:2vw;
+
+}
+input {
+    font-size:2vw;
+}
+
+label{
+    font-size:1.5vw;
+   
+}
+a{
+    color:grey;
+}
+a:hover{
+    color:black;
+}

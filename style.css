@@ -1,0 +1,36 @@
+@keyframes move{
+    0%{
+    }
+    100%{
+        transform:scale(0.95);
+    }
+}
+
+body{
+    font-family: 'Prompt', sans-serif;
+    background:salmon;
+    color:white;
+    text-align: center;
+    font-size:1.8vw;
+    margin:5%;
+}
+.wk{
+    margin:10%;
+}
+.st{
+    margin:10%;
+}
+p{
+    margin-bottom:5%;
+    animation:move 1s ease-in-out infinite alternate;
+}
+a{
+    color:aqua;
+}
+.wk:hover{
+    color:rebeccapurple;
+}
+.st:hover{
+    color:navy;
+
+}
